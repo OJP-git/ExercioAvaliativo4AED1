@@ -1,7 +1,7 @@
 # ExercioAvaliativo4AED1
 ## Nome: João Pedro da Silva Netto
 ## LeetCode 18: 4sum
-### https://leetcode.com/problems/global-and-local-inversions/
+### [https://leetcode.com/problems/global-and-local-inversions/](https://leetcode.com/problems/4sum/)
 Esse leetcode fornecia um vetor de inteiros e um valor alvo. Deveriamos verificar quais conjuntos de 4 numeros do vetor, somados, resultavam no valor alvo, não podendo repetir e a ordem não importava dentro da matriz de resposta.
 
 ### Casos testados:
