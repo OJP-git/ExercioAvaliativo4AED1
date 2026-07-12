@@ -84,10 +84,10 @@ int **fourSum( int *nums, int numsSize, int target,
 	//inicio do bloco com ajuda de IA
 		int		capacity = 1;
 		int **	returnedMatriz = malloc( capacity * sizeof ( int * ) );
-		*returnColumnSizes = malloc( capacity * sizeof ( int ) );
+		* returnColumnSizes = malloc( capacity * sizeof ( int ) );
 	//Fim do bloco com ajuda
 	
-	( *returnSize ) = 0;
+	( * returnSize ) = 0;
 	int a = 0;
 	int d;
 	int b;
@@ -132,14 +132,14 @@ int **fourSum( int *nums, int numsSize, int target,
 										* returnColumnSizes = realloc( * returnColumnSizes, capacity * sizeof ( int ) );
 									}
 									int * quadrupla = malloc( 4 * sizeof ( int ) );
-									quadrupla [ 0 ] = nums [ a ];
-									quadrupla [ 1 ] = nums [ b ];
-									quadrupla [ 2 ] = nums [ c ];
-									quadrupla [ 3 ] = nums [ d ];
-									returnedMatriz [ * returnSize ] = quadrupla;
-									( * returnColumnSizes ) [ * returnSize ] = 4;
-								// fim da parte com ajuda de IA
+								// fim da parte com ajuda de IA	
 
+								quadrupla [ 0 ] = nums [ a ];
+								quadrupla [ 1 ] = nums [ b ];
+								quadrupla [ 2 ] = nums [ c ];
+								quadrupla [ 3 ] = nums [ d ];
+								returnedMatriz [ * returnSize ] = quadrupla;
+								( * returnColumnSizes ) [ * returnSize ] = 4;
 								( * returnSize )++;
 								
 								pB = & nums [ b ];
